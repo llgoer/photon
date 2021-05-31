@@ -340,6 +340,18 @@ pub fn get_image_data(
     data
 }
 
+#[wasm_bindgen]
+extern "C" {
+    // `log(..)`
+    #[wasm_bindgen(js_namespace = console)]
+    fn log(s: &str);
+}
+
+#[wasm_bindgen]
+pub fn get_version() {
+    log("photon for smt 0.0.1");
+}
+
 /// Place a PhotonImage onto a 2D canvas.
 #[wasm_bindgen]
 #[allow(non_snake_case)]

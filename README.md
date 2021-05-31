@@ -5,7 +5,7 @@
  <img src="https://i.imgur.com/GxrKNOb.png" alt="Photon banner, showing the Photon logo on a dark background"></a>
 </p>
 
-<h3 align="center">Photon</h3>
+<h3 align="center">Photon中文</h3>
 
 <div align="center">
     
@@ -23,11 +23,11 @@
 
 ---
 
-<p align="center"> High-performance, cross-platform Rust/WebAssembly image processing library
+<p align="center"> 高性能、跨平台 Rust/WebAssembly 图像处理库
     <br>
 </p>
 
-## 📝 Table of Contents
+## 📝 内容列表
 - [Get Started with WebAssembly](https://github.com/silvia-odwyer/photon#get-started-with-webassembly)
 - [Get Started Natively](https://github.com/silvia-odwyer/photon#get-started-natively)
 - [Documentation](https://docs.rs/photon-rs/)
@@ -35,13 +35,12 @@
 - [All Available Functions](https://silvia-odwyer.github.io/photon/docs/photon/all.html)
 - [Got Questions? Ask Here!](https://github.com/silvia-odwyer/photon#got-questions)
 
-Photon is a high-performance Rust image processing library, which compiles to WebAssembly, allowing for
-safe, blazing-fast image processing both natively and on the web.
+Photon是一个Rust高性能图片处理库, 同样适配于WebAssembly,无论本地还是网络中都是快速、安全的。
 
-You can run Photon:
-- natively
-- in the browser with WebAssembly
-- on Node with WebAssembly
+您可以在以下平台运行Photon:
+- 原生运行
+- 浏览器中WebAssembly运行
+- NodeJS中WebAssembly运行
 
 ### Features
 - **Fast:** On the web, Photon's high-performance allows it to run at near-native speed. Benchmarks can be found [here](https://github.com/silvia-odwyer/photon/wiki/Benchmarks).
@@ -51,8 +50,8 @@ with zero-cost abstraction.
 development.
 - **Pure Rust** - Unlike other libraries, 100% of the library's codebase is written in Rust, so security and safety is guaranteed.
 
-### Live Demo
-View the [official demo of WASM in action](https://silvia-odwyer.github.io/photon/demo.html).
+### 演示
+访问 [WASM官方Demo示例](https://silvia-odwyer.github.io/photon/demo.html).
 
 ### Photon In Action
 
